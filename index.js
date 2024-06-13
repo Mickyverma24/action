@@ -1,8 +1,7 @@
 // API for get requests
 const index = async(url) => {
   let fetchRes =(await fetch(url));
-  const resp = await fetchRes?.json();
-  console.log(resp);
+  console.log(fetchRes);
 };
 
 const urls = [
